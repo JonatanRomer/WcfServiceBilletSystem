@@ -1,0 +1,93 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>BilletLibrary</name>
+    </assembly>
+    <members>
+        <member name="T:BilletLibrary.Bil">
+            <summary>
+            Klasse til Biler på storebælts broen
+            </summary>
+        </member>
+        <member name="M:BilletLibrary.Bil.KøreTøjType">
+            <summary>
+            angiver køretøjstypen
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:BilletLibrary.Bil.Pris">
+            <summary>
+            Giver prisen på en overfart 
+            Der gives 20% hvis datoen er en lørdag eller søndag
+            Der gives 5% hvis der er en brobizz
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:BilletLibrary.Bil.#ctor">
+            <summary>
+            default constructor prisen sættes til 240
+            </summary>
+        </member>
+        <member name="T:BilletLibrary.BilØreSund">
+            <summary>
+            bil obj. som bruges til Øresundsbroen
+            </summary>
+        </member>
+        <member name="M:BilletLibrary.BilØreSund.#ctor">
+            <summary>
+            default ctor prisen sættes til 410
+            </summary>
+        </member>
+        <member name="M:BilletLibrary.BilØreSund.KøreTøjType">
+            <summary>
+            angiver køretøjstypen
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:BilletLibrary.MC">
+            <summary>
+            Alm MC klasse
+            </summary>
+        </member>
+        <member name="M:BilletLibrary.MC.KøreTøjType">
+            <summary>
+            angiver køretøjstypen
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:BilletLibrary.MC.Pris">
+            <summary>
+            angiver prisen på en overfart, med rabat hvis der bruges broBizz
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:BilletLibrary.MC.#ctor">
+            <summary>
+            default ctor 
+            sætter prisen til 125 
+            </summary>
+        </member>
+        <member name="T:BilletLibrary.MCØresund">
+            <summary>
+            MC obj som skal bruges til Øresundsbroen
+            </summary>
+        </member>
+        <member name="M:BilletLibrary.MCØresund.#ctor">
+            <summary>
+            default ctor som sætter prisen til 210
+            </summary>
+        </member>
+        <member name="M:BilletLibrary.MCØresund.KøreTøjType">
+            <summary>
+            Angiver køretøjstypen
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:BilletLibrary.MCØresund.Pris">
+            <summary>
+            Angiver prisen på en overfart, med rabat hvis der bruges broBizz
+            </summary>
+            <returns>Grundpris hhv. BroBizzPris</returns>
+        </member>
+    </members>
+</doc>
